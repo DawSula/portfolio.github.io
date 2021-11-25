@@ -1,0 +1,61 @@
+$color1: rgba(208, 154, 19, 0.652);
+$color2: rgba(208, 200, 200, 0.987);
+$color3: rgb(191, 144, 25);
+
+$shadow: 0 0 1px $color1, 0 0 3px $color1;
+
+
+
+.mainDiv{
+    background: url(../img/background.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-position: center;
+
+}
+
+@mixin textStyle {
+    color: $color2;
+    text-shadow: $shadow;
+}
+
+
+@mixin button {
+    border-radius: 20px;
+    z-index: 1;
+    padding: 20px 40px;
+    background-color: transparent;
+    border: 1px solid $color2;
+    color: $color2;    
+}
+
+@mixin centeredFlexColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin centeredFlexRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+@mixin spaceBewtweenFlexRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+a:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
