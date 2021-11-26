@@ -1,0 +1,27 @@
+.contentBlock{
+    @include centeredFlexColumn;
+    @include textStyle;
+}
+
+
+
+.contentBlock-Head{
+
+    // @include textStyle;
+    margin-bottom: 20px;
+    h2{
+        font-size: 50px;
+    }
+
+}
+
+.contentBlock-Img-Info{
+    @include centeredFlexRow;
+    div{
+        padding: 30px;
+        margin: 0 30px;
+    }
+
+}
+
+

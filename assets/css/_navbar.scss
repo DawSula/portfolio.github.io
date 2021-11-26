@@ -4,10 +4,14 @@
 .header{
     @include spaceBewtweenFlexRow;
     @include textStyle;
+    font-size: 18px;
     ul{
+       
         @include spaceBewtweenFlexRow;
         li{
             padding: 30px;
+            
+            
             
         }
     }
@@ -15,6 +19,7 @@
         padding:30px;
     }
     a{
-        color: $color2;
+        color: $color2;     
+
     } 
 }
