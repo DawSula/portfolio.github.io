@@ -5,17 +5,25 @@ $color3: rgb(191, 144, 25);
 
 $shadow: 0 0 1px $color1, 0 0 3px $color1;
 
-
-
-.mainDiv{
+body{
     background: url(../img/background.jpg);
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size:cover; 
     background-position: center;
-
 }
+
+
+// .mainDiv{
+//     background: url(../img/background.jpg);
+//     height: 100%;
+//     width: 100%;
+//     background-repeat: no-repeat;
+//     background-size:cover; 
+//     background-position: center;
+
+// }
 
 @mixin textStyle {
     color: $color2;
