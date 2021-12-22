@@ -1,0 +1,13 @@
+.contentProjectsBlock{
+    @include centeredFlexColumn;
+    @include textStyle;
+    margin-top: 100px;
+    text-align: center;
+    div{
+        margin: 40px;
+        font-size: 20px;
+    }
+    .icon-github{
+        font-size: 70px;
+    }
+}

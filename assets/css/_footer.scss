@@ -1,6 +1,21 @@
 .foot{
     background-color: $color2;
-    height: 100px;
     width: 100%;
     margin-top: 400px;
+    @include centeredFlexRow;
+    div{
+        margin: 0px 60px;
+        padding: 30px;
+        font-size: 20px;
+    }
+    i{
+        font-size: 40px;
+    }
 }
+@media (max-width: 800px){
+    .foot{
+        @include centeredFlexColumn;
+        margin-top: 170px;
+    }
+}
+
