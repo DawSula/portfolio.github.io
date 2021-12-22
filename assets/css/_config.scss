@@ -5,6 +5,10 @@ $color3: rgb(191, 144, 25);
 
 $shadow: 0 0 1px $color1, 0 0 3px $color1;
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: url(../img/background.jpg);
     height: 100%;

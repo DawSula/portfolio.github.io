@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: url(../img/background.jpg);
   height: 100%;
@@ -18,9 +22,6 @@ button:hover {
 }
 
 .header {
-  position: fixed;
-  width: 100%;
-  top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,7 +74,7 @@ button:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 300px;
+  margin-top: 230px;
   padding: 40px;
 }
 

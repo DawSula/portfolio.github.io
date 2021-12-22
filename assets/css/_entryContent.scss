@@ -1,6 +1,6 @@
 .entry{
     @include centeredFlexColumn;
-    margin-top: 300px;
+    margin-top: 230px;
     padding: 40px;
     .btn1{
         @include button;
