@@ -5,30 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/fontello/fontello.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Portfolio</title>
+
 
 </head>
 
 <body>
 
-
-
     <div class="mainDiv">
 
         <header>
             <div class="header">
-                <div class="logo"> <a href="">NA GRAFIKE</a></div>
+                <div class="logo"> <a id='scrollup' href="#">NA GRAFIKE</a></div>
                 <div class="navMenu">
                     <ul>
-                        <li><a href="">O mnie</a></li>
-                        <li><a href="">Projekty</a></li>
-                        <li><a href="">Kontakt</a></li>
+                        <li><a class='link1' href="#">O mnie</a></li>
+                        <li><a id='link2' href="#">Projekty</a></li>
+                        <li><a id='link3' href="#">Kontakt</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,38 +40,66 @@
         <main>
             <div class="entry">
                 <div>
-                    <h1>Witaj</h1>
+                    <h1>Junior Back-End Developer</h1>
                 </div>
                 <div>
-                    <h2>Zopbacz moje projekty</h2>
+                    <h2>W przyszłości może fullstack :)</h2>
                 </div>
                 <div>
-                    <button class="btn1">Przejdź dalej</button>
+                    <button class="btn1 link1">Przejdź dalej</button>
                 </div>
 
             </div>
 
 
-            <div class="contentBlock">
+            <div class="contentBlock"  id="destination1">
                 <div class="contentBlock-Head">
-                    <h2">Coś o mnie hallo</h2>
+                    <h2>O mnie</h2>
                 </div>
-                <div class="contentBlock-container">
-                    <div class="contentBlock-Img-Info">
-                        <div>Obrazek</div>
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore officiis saepe ea
-                            laboriosam sunt. Nihil quisquam velit, placeat officiis aspernatur perferendis neque, qui
-                            veritatis consequatur temporibus eos soluta, ut eaque.</div>
-                    </div>
-                    <div class="contentBlock-Img-Info">
-                        <div>Obrazek</div>
-                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo officiis tempore quasi
-                            consectetur numquam fuga optio quis blanditiis id sunt natus nihil maiores doloremque,
-                            soluta vero quaerat eaque mollitia. Quo!</div>
+                <div class=" contentBlock-All-Info">
+                        <div class="contentBlock-container">
+                            <div class="contentBlock-Img-Info">
+                                <div><i class="icon-desktop"></i></div>
+                                <div class="contentBlock-Text-Info">
+                                    <p>
+                                        Nazywam się Dawid. Jestem początującym deweloperem nastawionym na back-end.
+                                        Jednak w przyszłości chciałbym zostać fullstack deweloperem. Obecnie koncentuję
+                                        się
+                                        na nauce <span class="info">PHP</span>
+                                        Dodatkowo znam podstawy <span class="info">HTML</span>, <span
+                                            class="info">CSS</span>, <span class="info">JavaSript</span>, <span
+                                            class="info">SCSS</span>, oraz <span class="info">Javy</span>.
+                                    </p>
+                                    <p>
+                                        Narzędzia jakich używam: <span class="info">PhpStorm</span>, oraz <span
+                                            class="info">Visual Studio Code</span>
+                                    </p>
+                                </div>
 
-                    </div>
+                            </div>
+                            <div class="contentBlock-Img-Info">
+                                <div><i class="icon-music"></i></div>
+                                <div class="contentBlock-Text-Info">
+                                    <p>
+                                        Do moich zainteresowań należy muzyka, którą się zajmuję ponad 10 lat. Głównym
+                                        instrumentem na którym gram Jest
+                                        klarnet. Jednak hobbistycznie gram również na saksofonie, fortepianie czy też
+                                        gitarze elektrycznej.
+                                        Oprócz tego lubię szeroko pojęty sport oraz czasem zdaża mi się poczytać o
+                                        starożytnośći.
+                                    </p>
+                                    <p>
+                                        Jeżeli chcesz posłuchać jednego z utworów, w którym gram zapraszam pod wymieniony
+                                        link :) - <span class="info"><a
+                                                href="https://www.youtube.com/watch?v=bwf4QnwIwos"
+                                                target="_blank">LINK</a></span>
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
                 </div>
-
             </div>
 
 
@@ -77,23 +108,27 @@
 
 
 
+        <footer>
+            <div class="foot">
 
-
-    </div>
-
-
-
-
-
-
-
-
-
+            </div>
+        </footer>
 
     </div>
 
 
 
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
 
 
 
