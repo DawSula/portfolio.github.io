@@ -54,10 +54,17 @@ button:hover {
 
 .header .logo {
   padding: 30px;
+  font-size: 30px;
 }
 
 .header a {
   color: rgba(208, 200, 200, 0.987);
+}
+
+@media (max-width: 800px) {
+  ul li {
+    display: none;
+  }
 }
 
 .entry {
@@ -99,6 +106,19 @@ button:hover {
   font-size: 3.2em;
 }
 
+@media (max-width: 800px) {
+  .entry {
+    margin-top: 40px;
+  }
+  .entry h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .entry h2 {
+    font-size: 1.2em;
+  }
+}
+
 .contentBlock {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,7 +140,7 @@ button:hover {
 
 .contentBlock-Head {
   font-size: 30px;
-  padding: 50px;
+  padding: 30px;
 }
 
 .contentBlock-All-Info {

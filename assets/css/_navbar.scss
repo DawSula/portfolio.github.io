@@ -1,6 +1,5 @@
 
 .header{
-
     @include spaceBewtweenFlexRow;
     @include textStyle;
     font-size: 18px;
@@ -17,4 +16,10 @@
     a{
         color: $color2;     
     } 
+}
+
+@media (max-width: 800px){
+    ul li{
+        display: none;
+    }
 }
